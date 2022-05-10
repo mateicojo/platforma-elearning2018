@@ -1,0 +1,14 @@
+C:\Users\mok_a\Desktop\2018 judeteana\2018 judeteana\bin\Debug\2018 judeteana.exe.config
+C:\Users\mok_a\Desktop\2018 judeteana\2018 judeteana\bin\Debug\2018 judeteana.exe
+C:\Users\mok_a\Desktop\2018 judeteana\2018 judeteana\bin\Debug\2018 judeteana.pdb
+C:\Users\mok_a\Desktop\2018 judeteana\2018 judeteana\obj\Debug\2018 judeteana.csprojResolveAssemblyReference.cache
+C:\Users\mok_a\Desktop\2018 judeteana\2018 judeteana\obj\Debug\_2018_judeteana.Properties.Resources.resources
+C:\Users\mok_a\Desktop\2018 judeteana\2018 judeteana\obj\Debug\2018 judeteana.csproj.GenerateResource.Cache
+C:\Users\mok_a\Desktop\2018 judeteana\2018 judeteana\obj\Debug\2018 judeteana.exe
+C:\Users\mok_a\Desktop\2018 judeteana\2018 judeteana\obj\Debug\2018 judeteana.pdb
+C:\Users\mok_a\Desktop\2018 judeteana\2018 judeteana\obj\Debug\_2018_judeteana.eLearning1918_start.resources
+C:\Users\mok_a\Desktop\2018 judeteana\2018 judeteana\obj\Debug\_2018_judeteana.eLearning1918_elev.resources
+C:\Users\mok_a\Desktop\2018 judeteana\2018 judeteana\bin\Debug\2018 judeteana.exe.manifest
+C:\Users\mok_a\Desktop\2018 judeteana\2018 judeteana\bin\Debug\2018 judeteana.application
+C:\Users\mok_a\Desktop\2018 judeteana\2018 judeteana\obj\Debug\2018 judeteana.exe.manifest
+C:\Users\mok_a\Desktop\2018 judeteana\2018 judeteana\obj\Debug\2018 judeteana.application

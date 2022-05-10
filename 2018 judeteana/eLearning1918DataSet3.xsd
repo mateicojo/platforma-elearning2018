@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="eLearning1918DataSet3" targetNamespace="http://tempuri.org/eLearning1918DataSet3.xsd" xmlns:mstns="http://tempuri.org/eLearning1918DataSet3.xsd" xmlns="http://tempuri.org/eLearning1918DataSet3.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="eLearning1918ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="eLearning1918ConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings._2018_judeteana.Properties.Settings.GlobalReference.Default.eLearning1918ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="carnetTableAdapter" GeneratorDataComponentClassName="carnetTableAdapter" Name="carnet" UserDataComponentName="carnetTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="eLearning1918ConnectionString (Settings)" DbObjectName="dbo.carnet" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT IdUtilizator, NumePrenumeUtilizator, ParolaUtilizator, EmailUtilizator, ClasaUtilizator FROM dbo.carnet</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="IdUtilizator" DataSetColumn="IdUtilizator" />
+              <Mapping SourceColumn="NumePrenumeUtilizator" DataSetColumn="NumePrenumeUtilizator" />
+              <Mapping SourceColumn="ParolaUtilizator" DataSetColumn="ParolaUtilizator" />
+              <Mapping SourceColumn="EmailUtilizator" DataSetColumn="EmailUtilizator" />
+              <Mapping SourceColumn="ClasaUtilizator" DataSetColumn="ClasaUtilizator" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="eLearning1918DataSet3" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="eLearning1918DataSet3" msprop:Generator_UserDSName="eLearning1918DataSet3">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="carnet" msprop:Generator_TableClassName="carnetDataTable" msprop:Generator_TableVarName="tablecarnet" msprop:Generator_TablePropName="carnet" msprop:Generator_RowDeletingName="carnetRowDeleting" msprop:Generator_RowChangingName="carnetRowChanging" msprop:Generator_RowEvHandlerName="carnetRowChangeEventHandler" msprop:Generator_RowDeletedName="carnetRowDeleted" msprop:Generator_UserTableName="carnet" msprop:Generator_RowChangedName="carnetRowChanged" msprop:Generator_RowEvArgName="carnetRowChangeEvent" msprop:Generator_RowClassName="carnetRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IdUtilizator" msprop:Generator_ColumnVarNameInTable="columnIdUtilizator" msprop:Generator_ColumnPropNameInRow="IdUtilizator" msprop:Generator_ColumnPropNameInTable="IdUtilizatorColumn" msprop:Generator_UserColumnName="IdUtilizator" type="xs:int" />
+              <xs:element name="NumePrenumeUtilizator" msprop:Generator_ColumnVarNameInTable="columnNumePrenumeUtilizator" msprop:Generator_ColumnPropNameInRow="NumePrenumeUtilizator" msprop:Generator_ColumnPropNameInTable="NumePrenumeUtilizatorColumn" msprop:Generator_UserColumnName="NumePrenumeUtilizator" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ParolaUtilizator" msprop:Generator_ColumnVarNameInTable="columnParolaUtilizator" msprop:Generator_ColumnPropNameInRow="ParolaUtilizator" msprop:Generator_ColumnPropNameInTable="ParolaUtilizatorColumn" msprop:Generator_UserColumnName="ParolaUtilizator" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EmailUtilizator" msprop:Generator_ColumnVarNameInTable="columnEmailUtilizator" msprop:Generator_ColumnPropNameInRow="EmailUtilizator" msprop:Generator_ColumnPropNameInTable="EmailUtilizatorColumn" msprop:Generator_UserColumnName="EmailUtilizator" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ClasaUtilizator" msprop:Generator_ColumnVarNameInTable="columnClasaUtilizator" msprop:Generator_ColumnPropNameInRow="ClasaUtilizator" msprop:Generator_ColumnPropNameInTable="ClasaUtilizatorColumn" msprop:Generator_UserColumnName="ClasaUtilizator" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:carnet" />
+      <xs:field xpath="mstns:IdUtilizator" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

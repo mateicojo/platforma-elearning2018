@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="2018 judeteana.exe" version="1.0.0.0" publicKeyToken="810d2705f549678b" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="2018 judeteana" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="2018 judeteana.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="2018 judeteana.exe" size="306176">
+      <assemblyIdentity name="2018 judeteana" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>75PXafbh0qZcIgOW5qtRZ1weLz6sYMSVE6U9w5rSgxM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="1.jpg" size="17737">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>I46stjpshgV1aw2kzTEqHOyR17s0TW7OS8HW9r/ZH8k=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="2.jpg" size="11380">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>nIQpNPMIxajiRiDAezw/1lRUYonWC67kqTiFOgFyLhU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="2018 judeteana.exe.config" size="588">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>26dCQr0yqTe61P5MzK5UzwCH7OohsQcJA+YUlslnIw8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="3.jpg" size="10496">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>NlGkV+0yVHbZM/RMlz3RFonGtymLn6zOPU9KtWQ8Fq8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="4.jpg" size="136219">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>7FAn6Wff4Ys8T/c64+cNwseJqp5AGYOzDMi46atHl8A=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="5.jpg" size="13371">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>/uq/uHENxOmm6aO6mGhP3OT0/yei6HGKvoId56H+6pU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="date.txt" size="5957">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>XJLDMNZtT1Qk5os34NgmEy7xDdpbanR4XFWlUU14ISI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="user.bmp" size="9382">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>mah5EHS0FdDn3XJpxrehXnyqossRjKwGH9VB/Sc/fTE=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=MATEI\mok_a" issuerKeyHash="b99b9dfc8d499dbc8d61ccac9eb4b47e919ab186" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>S8dB/tfP2JD8cAvnPOHM9L0DrxAvr9GKq6cz/Xf+iM8=</DigestValue></Reference></SignedInfo><SignatureValue>O2zNl2G3v9zaDRd2IXiGGpDXkTfaAG+VZA76VXFvaNLRZYmbaMMmcx0LIOm0ghAGA5jNmFPwCt7wxUl0ZUz48QHd/LyNNz7w8Xc96kQeKhNSeVmoS+/LSCaNUkx0JNOROyIdM/AqGsUCCSHw9wgx/ZjztjuKVCQDypNb0v3gzNc=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>pu8OB5/2h+pl8Tv3Q0gLQOh8h5pxubHfXB8PdADwYH68XcBSUrYBvwVxQWJZoZhoWbJJVMkA2FNqVDuyDQh1DaF6wVEoI5JE6lkwgYGOwrCFyif67Ufxu2XbEI2pDNdEzrhzHmk8TKp7tVUD5+PIaX6IGzxBI4whzgtFvWzL66E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="cf88fe77fd33a7ab8ad1af2f10af03bdf4cce13ce70b70fc90d8cfd7fe41c74b" Description="" Url=""><as:assemblyIdentity name="2018 judeteana.exe" version="1.0.0.0" publicKeyToken="810d2705f549678b" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=MATEI\mok_a</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>JghZNtlCNaIGQFfT7cPmtjPXa1cbt792jHarUSIOiSI=</DigestValue></Reference></SignedInfo><SignatureValue>TTab0dVp6sm5/lfrBb33y4TSJ+Vlo5AWpjxj16CTC2snIyW4VslO2vph0B4hPvAT9PoymJL1Yr6piVPfQ8oTgbpBZaKJqcO6Z1sAxI+XcUMVp6yHjxkcw1clZ2Z9AAyA2vluTri1rutBj0DnLJE5hSZJxKVhUnyt1DJfUmTAXjc=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>pu8OB5/2h+pl8Tv3Q0gLQOh8h5pxubHfXB8PdADwYH68XcBSUrYBvwVxQWJZoZhoWbJJVMkA2FNqVDuyDQh1DaF6wVEoI5JE6lkwgYGOwrCFyif67Ufxu2XbEI2pDNdEzrhzHmk8TKp7tVUD5+PIaX6IGzxBI4whzgtFvWzL66E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBxTCCAS6gAwIBAgIQR7d/+WS7SKVMXrdGJjkFFTANBgkqhkiG9w0BAQsFADAhMR8wHQYDVQQDHhYATQBBAFQARQBJAFwAbQBvAGsAXwBhMB4XDTIyMDQwNjA2MzI0OVoXDTIzMDQwNjEyMzI0OVowITEfMB0GA1UEAx4WAE0AQQBUAEUASQBcAG0AbwBrAF8AYTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEApu8OB5/2h+pl8Tv3Q0gLQOh8h5pxubHfXB8PdADwYH68XcBSUrYBvwVxQWJZoZhoWbJJVMkA2FNqVDuyDQh1DaF6wVEoI5JE6lkwgYGOwrCFyif67Ufxu2XbEI2pDNdEzrhzHmk8TKp7tVUD5+PIaX6IGzxBI4whzgtFvWzL66ECAwEAATANBgkqhkiG9w0BAQsFAAOBgQBwFmbQNu77BzhZ5SEApmAaNs1tRpNllXtv9ZzqIHMEnYENTXxv0FVCeNdHX+eUQ4fEYSzvXBvb4Yg0t7LNvnOpooppREdfFsATTMT+MSrukdtCd848VM0nQJrrw8zIvfsMPfCQ3vQoQ4xfOr8082YQOKSfOI//+UsHly4FvBkqTQ==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

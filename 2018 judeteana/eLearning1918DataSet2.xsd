@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="eLearning1918DataSet2" targetNamespace="http://tempuri.org/eLearning1918DataSet2.xsd" xmlns:mstns="http://tempuri.org/eLearning1918DataSet2.xsd" xmlns="http://tempuri.org/eLearning1918DataSet2.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="eLearning1918ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="eLearning1918ConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings._2018_judeteana.Properties.Settings.GlobalReference.Default.eLearning1918ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="noteclasaTableAdapter" GeneratorDataComponentClassName="noteclasaTableAdapter" Name="noteclasa" UserDataComponentName="noteclasaTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="eLearning1918ConnectionString (Settings)" DbObjectName="dbo.noteclasa" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT IdEvaluare, IdElev, DataEvaluare, NotaEvaluare FROM dbo.noteclasa</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="IdEvaluare" DataSetColumn="IdEvaluare" />
+              <Mapping SourceColumn="IdElev" DataSetColumn="IdElev" />
+              <Mapping SourceColumn="DataEvaluare" DataSetColumn="DataEvaluare" />
+              <Mapping SourceColumn="NotaEvaluare" DataSetColumn="NotaEvaluare" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="noteelevTableAdapter" GeneratorDataComponentClassName="noteelevTableAdapter" Name="noteelev" UserDataComponentName="noteelevTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="eLearning1918ConnectionString (Settings)" DbObjectName="dbo.noteelev" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT IdEvaluare, IdElev, DataEvaluare, NotaEvaluare FROM dbo.noteelev</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="IdEvaluare" DataSetColumn="IdEvaluare" />
+              <Mapping SourceColumn="IdElev" DataSetColumn="IdElev" />
+              <Mapping SourceColumn="DataEvaluare" DataSetColumn="DataEvaluare" />
+              <Mapping SourceColumn="NotaEvaluare" DataSetColumn="NotaEvaluare" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="eLearning1918DataSet2" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="eLearning1918DataSet2" msprop:Generator_UserDSName="eLearning1918DataSet2">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="noteclasa" msprop:Generator_TableClassName="noteclasaDataTable" msprop:Generator_TableVarName="tablenoteclasa" msprop:Generator_TablePropName="noteclasa" msprop:Generator_RowDeletingName="noteclasaRowDeleting" msprop:Generator_RowChangingName="noteclasaRowChanging" msprop:Generator_RowEvHandlerName="noteclasaRowChangeEventHandler" msprop:Generator_RowDeletedName="noteclasaRowDeleted" msprop:Generator_UserTableName="noteclasa" msprop:Generator_RowChangedName="noteclasaRowChanged" msprop:Generator_RowEvArgName="noteclasaRowChangeEvent" msprop:Generator_RowClassName="noteclasaRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IdEvaluare" msprop:Generator_ColumnVarNameInTable="columnIdEvaluare" msprop:Generator_ColumnPropNameInRow="IdEvaluare" msprop:Generator_ColumnPropNameInTable="IdEvaluareColumn" msprop:Generator_UserColumnName="IdEvaluare" type="xs:int" />
+              <xs:element name="IdElev" msprop:Generator_ColumnVarNameInTable="columnIdElev" msprop:Generator_ColumnPropNameInRow="IdElev" msprop:Generator_ColumnPropNameInTable="IdElevColumn" msprop:Generator_UserColumnName="IdElev" type="xs:int" minOccurs="0" />
+              <xs:element name="DataEvaluare" msprop:Generator_ColumnVarNameInTable="columnDataEvaluare" msprop:Generator_ColumnPropNameInRow="DataEvaluare" msprop:Generator_ColumnPropNameInTable="DataEvaluareColumn" msprop:Generator_UserColumnName="DataEvaluare" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="NotaEvaluare" msprop:Generator_ColumnVarNameInTable="columnNotaEvaluare" msprop:Generator_ColumnPropNameInRow="NotaEvaluare" msprop:Generator_ColumnPropNameInTable="NotaEvaluareColumn" msprop:Generator_UserColumnName="NotaEvaluare" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="noteelev" msprop:Generator_TableClassName="noteelevDataTable" msprop:Generator_TableVarName="tablenoteelev" msprop:Generator_TablePropName="noteelev" msprop:Generator_RowDeletingName="noteelevRowDeleting" msprop:Generator_RowChangingName="noteelevRowChanging" msprop:Generator_RowEvHandlerName="noteelevRowChangeEventHandler" msprop:Generator_RowDeletedName="noteelevRowDeleted" msprop:Generator_UserTableName="noteelev" msprop:Generator_RowChangedName="noteelevRowChanged" msprop:Generator_RowEvArgName="noteelevRowChangeEvent" msprop:Generator_RowClassName="noteelevRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IdEvaluare" msprop:Generator_ColumnVarNameInTable="columnIdEvaluare" msprop:Generator_ColumnPropNameInRow="IdEvaluare" msprop:Generator_ColumnPropNameInTable="IdEvaluareColumn" msprop:Generator_UserColumnName="IdEvaluare" type="xs:int" />
+              <xs:element name="IdElev" msprop:Generator_ColumnVarNameInTable="columnIdElev" msprop:Generator_ColumnPropNameInRow="IdElev" msprop:Generator_ColumnPropNameInTable="IdElevColumn" msprop:Generator_UserColumnName="IdElev" type="xs:int" minOccurs="0" />
+              <xs:element name="DataEvaluare" msprop:Generator_ColumnVarNameInTable="columnDataEvaluare" msprop:Generator_ColumnPropNameInRow="DataEvaluare" msprop:Generator_ColumnPropNameInTable="DataEvaluareColumn" msprop:Generator_UserColumnName="DataEvaluare" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="NotaEvaluare" msprop:Generator_ColumnVarNameInTable="columnNotaEvaluare" msprop:Generator_ColumnPropNameInRow="NotaEvaluare" msprop:Generator_ColumnPropNameInTable="NotaEvaluareColumn" msprop:Generator_UserColumnName="NotaEvaluare" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:noteclasa" />
+      <xs:field xpath="mstns:IdEvaluare" />
+    </xs:unique>
+    <xs:unique name="noteelev_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:noteelev" />
+      <xs:field xpath="mstns:IdEvaluare" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
